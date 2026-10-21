@@ -36,9 +36,9 @@
 ### 1. Build the Library
 Run `make` in the root directory to generate the static library file `libft.a`:
 
-\`\`\`bash
+```bash
 make
-\`\`\`
+```
 
 Available Makefile rules:
 * `make`: Compiles all `.c` files into `.o` and creates `libft.a`.
@@ -49,13 +49,13 @@ Available Makefile rules:
 ### 2. Linking in Your Own Projects
 Include the header file in your `.c` files and compile with the static library path:
 
-\`\`\`c
+```c
 #include "libft.h"
-\`\`\`
+```
 
-\`\`\`bash
+```bash
 cc -Wall -Wextra -Werror main.c -L. -lft -o my_program
-\`\`\`
+```
 
 ---
 
@@ -65,9 +65,9 @@ This project has been thoroughly tested using official school testers and memory
 
 * **Norminette:** `norminette -CheckDefine libft.h` `norminette -CheckForbiddenSourceHeader *.c`
 * **Valgrind Memory Leak Test:**
-  \`\`\`bash
+  ```bash
   valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./my_program
-  \`\`\`
+  ```
 * **Third-Party Testers:** 42 Network Moulinette
 
 ---
