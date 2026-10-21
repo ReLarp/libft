@@ -75,5 +75,5 @@ This project has been thoroughly tested using official school testers and memory
 ## 👤 Author
 
 * **Login:** `islakoua`
-* **Login:** `islakoua@student.1337.ma`
-* **Campus:** 1337 Rabat / 42 Network
+* **Webmail:** `islakoua@student.1337.ma`
+* **Campus:** `1337 Rabat / 42 Network`
